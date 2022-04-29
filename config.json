@@ -1,0 +1,25 @@
+{
+    "name": "aimlab_tb",
+    "comment": "name是窗口名称，如果没有准确匹配的名称会搜索包含的name的窗口。padding是计算比例之前扣除的像素数量，形式top,bottom,left,right。stick是自动贴合主窗口，设置为空队列即不贴合。",
+    "target": [0, 0, 1024, 768],
+	"roi": [0.1, 0.1, 0.9, 0.9],
+	"stick": ["left", "top,height"],
+	"image_size": 100,
+	"action_last": 0.1,
+	"restart_time": 5,
+	"reward_scale": 1,
+	"padding": [35, 0, 0, 0],
+    "scale": 0.4,
+    "display_fps": 30,
+	"data": [
+		{
+			"name": "pts",
+			"roi": [0.27, 0.03, 0.4, 0.08]
+		},
+		{
+			"name": "time",
+			"roi": [0.48, 0.03, 0.54, 0.08]
+		}
+	]
+}
+
